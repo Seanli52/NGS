@@ -509,18 +509,52 @@ Running Trawler
 
 -   Go to the website https://trawler.erc.monash.edu.au
 
--   Run Trawler with BED file as input ![image](Trawler1.PNG)
+-   Run Trawler with BED file as input, and wait for the results
+    ![image](Trawler1.PNG) ![image](Trawler2.PNG)
 
--   Download sample and background files in FASTA format (Fig 4-8)
-
--   Run Trawler with FASTA file as input and background (Fig 9 & 11 in
-    PowerPoint Presentation)
-
--   Result: discovered families, PWMs (Position Weight Matrices)
+-   Download both sample and background files in FASTA format. Right
+    click and choose: ’Save the link as...’ ![image](Trawler3.PNG)
 
 Which motif was found to be the most similar to your motif?
 
 Sox2
+
+### Optional: Motif discovery with RSAT peak-motif
+
+The motif discovery tool RSAT peak-motifs uses FASTA files as input. An
+optional background can be uploaded in FASTA format. RSAT peak-motifs
+automatically outputs motifs of 6 and 7 nucleotides length (two separate
+files). While still accurate, the running time is longer compared to
+Trawler (up to 20 minutes depending on the size of the files).
+
+Running RSAT peak-motifs
+
+-   Go to the website
+    http://floresta.eead.csic.es/rsat/peak-motifs~f~orm.cgi
+
+-   Upload input and background FASTA files just downloaded from Trawler
+    ![image](RSAT1.PNG)
+
+-   Wait until the discovery finishes.
+
+### Optional: Motif discovery with MEME-ChIP
+
+MEME-ChIP is a popular motif discovery tool and part of MEME Suite.
+MEME-ChIP accepts input files in FASTA format. It is not necessary to
+upload your own background because MEME-ChIP uses its own. Although
+MEME-ChIP is one of the most popular motif discovery tools, the
+identified motifs are not very accurate and the motif search might take
+up to one hour. MEME-ChIP outputs the three motifs with the lowest
+E-Value.
+
+Running MEME-ChIP
+
+-   Go to the website http://meme-suite.org/tools/meme-chip
+
+-   Upload input and background FASTA files just downloaded from Trawler
+    ![image](MEME1.PNG)
+
+-   Wait until the discovery finishes.
 
 Reference
 ---------
