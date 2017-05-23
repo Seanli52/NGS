@@ -509,9 +509,7 @@ Running Trawler
 
 -   Go to the website https://trawler.erc.monash.edu.au
 
--   Run Trawler with BED file as input
-
-    [figure:1]
+-   Run Trawler with BED file as input ![image](Trawler1)
 
 -   Download sample and background files in FASTA format (Fig 4-8)
 
