@@ -358,7 +358,7 @@ being installed locally, easy to use and fast access to visualize your
 in-house data. We alo provide the workflow of how to use Ensembl for
 visualization. You can practise after the workshop.
 
-**IGV Visualization**\
+**IGV Visualization**
 
 Double click the IGV 2.3 icon on your Desktop. Ignore any warnings and
 when it opens you have to load the genome of interest. On the top left
@@ -420,8 +420,9 @@ having more than one modification sites in this region.
 
 For Oct4, no peak can be observed.
 
-**Advanced Session**\
-**Ensembl Visualization**\
+### Advanced Session
+
+**Ensembl Visualization**
 
 Launch a web browser and go to the Ensembl website at
 <http://www.ensembl.org/index.html>. Choose the genome of interest (in
@@ -503,6 +504,21 @@ directly in Trawler. Other tools do not accept BED files as input. With
 Trawler, BED files can be converted into FASTA files that can then be
 used for other motif discovery tools (e.g. RSAT peak-motifs and MEME
 ChIP).
+
+Running Trawler
+
+-   Go to the website https://trawler.erc.monash.edu.au
+
+-   Run Trawler with BED file as input
+
+    [figure:1]
+
+-   Download sample and background files in FASTA format (Fig 4-8)
+
+-   Run Trawler with FASTA file as input and background (Fig 9 & 11 in
+    PowerPoint Presentation)
+
+-   Result: discovered families, PWMs (Position Weight Matrices)
 
 Which motif was found to be the most similar to your motif?
 
